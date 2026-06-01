@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 
 participant browser
@@ -12,3 +13,4 @@ browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note \n{not
 activate server
 server-->>browser: 304(Found): text/html
 deactivate server
+```
